@@ -1,0 +1,3 @@
+from .cifar100 import get_CIFAR100_train_loader, get_CIFAR100_test_loader, get_CIFAR100_train_valid_split_loader
+from .cifar10 import get_CIFAR10_train_loader, get_CIFAR10_test_loader, get_CIFAR10_train_valid_split_loader
+from .svhn import get_SVHN_train_loader, get_SVHN_test_loader, get_SVHN_train_valid_split_loader
